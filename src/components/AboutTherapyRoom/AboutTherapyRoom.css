@@ -1,0 +1,115 @@
+.about-therapy-room {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fff;
+}
+
+.who-we-are h1 {
+  text-align: center;
+  color: #39495f;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+}
+
+
+
+.who-we-are-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.who-we-are-content .text {
+  flex: 2;
+  color: #3f4d59;
+  font-size: 1.1rem;
+}
+
+.who-we-are-content .images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.who-we-are-content .images img {
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.09);
+}
+
+.ttr-sections {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.ttr-column {
+  flex: 1;
+  background: #e3eaea;
+  border-radius: 10px;
+  padding: 24px 20px;
+  margin-bottom: 16px;
+}
+
+.ttr-column h2 {
+  color: #44616a;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.ttr-column h3 {
+  font-weight: 500;
+  color: #56787c;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.ttr-column ul {
+  list-style: disc inside;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 1rem;
+  padding-left: 15px;
+}
+
+.ttr-column ul ul {
+  list-style: circle inside;
+  padding-left: 15px;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 900px) {
+  .who-we-are-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .who-we-are-content .images {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  .who-we-are-content .images img {
+    width: 344px;
+  }
+  .ttr-sections {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-therapy-room {
+    padding: 18px 7px;
+  }
+  .who-we-are h1 {
+    font-size: 1.4rem;
+  }
+  .ttr-column {
+    padding: 14px 10px;
+  }
+}
