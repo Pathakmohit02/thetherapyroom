@@ -6,8 +6,8 @@ import AboutSection from "./components/AboutSection/AboutSection"
 import AboutTherapyRoom from './components/AboutTherapyRoom/AboutTherapyRoom'
 import FAQ from "./components/FAQ/FAQ";
 import Event from "./components/Event/Event";
-import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   
