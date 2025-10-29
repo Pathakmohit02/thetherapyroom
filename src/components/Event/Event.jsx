@@ -1,4 +1,4 @@
-import './event.css';
+import './Event.css';
 import BlurText from '../BlurText/BlurText';
 
 const Event = () => {
