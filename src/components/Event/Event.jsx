@@ -1,6 +1,4 @@
-import React from 'react';
 import './event.css';
-import eventImage from "../../../public/events.png";
 import BlurText from '../BlurText/BlurText';
 
 const Event = () => {
@@ -13,7 +11,7 @@ const Event = () => {
         <button className="learn-more-button">Contact Us</button>
       </div>
       <div className="event-image-container">
-        <img src={eventImage} alt="The Therapy Room" className="event-image" />
+        <img src="/events.png" alt="The Therapy Room" className="event-image" />
       </div>
     </section>
   );
