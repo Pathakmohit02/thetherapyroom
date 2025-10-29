@@ -7,7 +7,7 @@ import AboutTherapyRoom from './components/AboutTherapyRoom/AboutTherapyRoom'
 import FAQ from "./components/FAQ/FAQ";
 import Event from "./components/Event/Event";
 import Footer from "./components/Footer/Footer";
-import ContactUs from "./components/ContactUs/ContactUs";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   
@@ -21,7 +21,7 @@ function App() {
       <AboutTherapyRoom/>
       <FAQ/>
       <Event/>
-      <ContactUs/>
+      <Contact/>
       <Footer/>
     </>
   )

@@ -1,7 +1,6 @@
-import React from 'react';
-import './ContactUs.css';
+import './Contact.css';
 
-const ContactUs = () => {
+const Contact = () => {
   return (
     <div className="contact-wrapper">
       <div className="contact-img-section">
@@ -30,4 +29,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contact;
